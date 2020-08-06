@@ -15,3 +15,5 @@ django-tables2
 django-reversion
 django-smuggler
 django-ajax-selects
+
+pillow>=7.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
