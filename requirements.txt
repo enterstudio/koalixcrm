@@ -15,3 +15,4 @@ django-tables2
 django-reversion
 django-smuggler
 django-ajax-selects
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
