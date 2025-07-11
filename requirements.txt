@@ -1,4 +1,4 @@
-Mezzanine>=4.0.1
+Mezzanine>=6.1.1
 cartridge
 Django>1.8
 django-solo
@@ -15,3 +15,4 @@ django-tables2
 django-reversion
 django-smuggler
 django-ajax-selects
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
